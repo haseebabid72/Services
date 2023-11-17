@@ -131,7 +131,9 @@ main .scroll {
 }
 
 .heading h2{
+    font-family: 'Gill Sans MT';
     text-align: center;
+    font-weight: 600;
     font-size: 2vw;
 }
 
@@ -480,14 +482,6 @@ main .scroll {
         display: none;
     }
 
-    .Details {
-        margin-top: 20px;
-    }
-
-    .head h1 {
-        font-size: 25px;
-    }
-
     .UI h2 {
         font-size: 20px;
     }
@@ -566,26 +560,6 @@ main .scroll {
         display: none;
     }
 
-    .head h1 {
-        font-size: 20px;
-    }
-
-    .UI h2 {
-        font-size: 22px;
-    }
-
-    .UI-Text {
-        font-size: 12px;
-    }
-
-    .WebDev h2 {
-        font-size: 22px;
-    }
-
-    .WB-Text {
-        font-size: 11px;
-    }
-
     .Services{
         margin-left: 5vw;
         display: grid;
@@ -654,10 +628,6 @@ main .scroll {
         line-height: 13px;
         padding: 7px;
         border-radius: 7px;
-    }
-
-    .head h1 {
-        font-size: 20px;
     }
 
     .Services img{
