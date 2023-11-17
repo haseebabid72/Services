@@ -1,0 +1,696 @@
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Grechen+Fuemen&family=Hachi+Maru+Pop&family=Montez&family=Noto+Sans:wght@500&family=Pacifico&family=Playfair+Display&family=Playpen+Sans:wght@200&display=swap');
+
+:root{
+    --headcolor: rgb(53, 53, 241);
+    --maincolor: rgb(14, 139, 112);
+    --seccolor: grey;
+    --secheadings: rgb(166, 72, 230);
+    --ullicolor: rgb(87, 85, 79);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(163, 159, 159) 0%, rgb(255, 255, 255) 50%, rgb(147, 150, 150) 100%);
+}
+
+nav {
+    color: var(--headcolor);
+    top: 0px;
+    position: sticky;
+    margin-left: 13vw;
+    margin-right: 13vw;
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr;
+    align-items: center;
+}
+
+.Logo {
+    font-family: "Grechen Fuemen";
+    font-size: 3vw;
+}
+
+.lower {
+    font-family: "Playpen Sans";
+    font-size: 1.25vw;
+}
+
+.right {
+    grid-column: 3/4;
+    display: flex;
+    justify-content: center;
+}
+
+.right ul li {
+    display: inline;
+    list-style: none;
+    font-family: 'Playfair Display';
+    font-size: 1.5vw;
+}
+
+nav a {
+    color: var(--headcolor);
+}
+
+a{
+    text-decoration: none;
+}
+
+
+nav a:visited{
+    color: var(--headcolor);
+}
+
+
+.right ul {
+    display: flex;
+    gap: 2vw;
+}
+
+.Intro {
+    margin: 10vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+}
+
+.Written h1 {
+    font-family: 'Gill Sans MT';
+    font-size: 2.5vw;
+    font-weight: 400;
+}
+
+.para {
+    font-family: 'Lucida Sans';
+    font-size: 2vw;
+    font-weight: 10;
+    color: grey;
+}
+
+.Img1 {
+    margin-left: 10vw;
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+    height: 550px;
+    width: 550px;
+}
+
+.learnmore {
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    line-height: 39px;
+    padding: 14px;
+    border-radius: 16px;
+    font-family: Georgia, serif;
+    background-image: linear-gradient(to right, rgb(14, 139, 112) 0%, rgb(31, 177, 121) 50%, rgb(5, 173, 159) 100%);
+    display: inline-block;
+    border: none;
+}
+
+.learnmore:hover {
+    background: #23d4ae;
+}
+
+.learnmore:active {
+    background: #25caa6;
+}
+
+main .scroll {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.heading h2{
+    text-align: center;
+    font-size: 2vw;
+}
+
+.Services ul li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.Services img{
+    border: 2px solid black;
+    height: 520px;
+    width: 520px;
+    border-radius: 20px;
+}
+
+.Services img:hover{
+    transform: scale(105%);
+    transition: all 350ms ease-in-out;
+}
+
+.image{
+    margin-left: 1vw;
+}
+
+.R{
+    justify-self: end;
+}
+
+.Services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 0px;
+    margin-left: 8vw;
+    margin-right: 4vw;
+}
+
+.content h3{
+    font-family: 'Pacifico';
+    font-size: 40px;
+    color: var(--maincolor);
+}
+
+
+.First h3{
+    color: var(--secheadings);
+}
+.content ul li{
+    color: var(--ullicolor);
+    font-size: 1.25vw;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.content svg{
+    height: 1.5vw;
+    width: 1.5vw;
+}
+
+.more a{
+    color: aliceblue;
+}
+
+.more {
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: 29px;
+    padding: 20px;
+    border-radius: 16px;
+    font-family: Georgia, serif;
+    background-image: linear-gradient(to right, rgb(14, 79, 139)0%, rgb(31, 111, 177) 50%, rgb(5, 134, 173) 100%);
+    display: inline-block;
+    border: none;
+}
+
+.more:hover {
+    background: linear-gradient(to right, rgb(14, 120, 139) 0%, rgb(31, 111, 177) 50%, rgb(5, 72, 173) 100%);
+}
+
+.more:active {
+    background: #25caa6;
+}
+
+.theme{
+    background-image: linear-gradient(to right, rgb(116, 93, 20) 0%, rgb(165, 130, 13) 50%,rgb(199, 155, 11) 100%);
+}
+
+.theme:hover {
+    background: linear-gradient(to right, rgb(189, 152, 32) 0%,rgb(180, 147, 37) 50%,rgb(168, 139, 44) 100%);
+}
+
+.theme:active {
+    background: #db8a10;
+}
+
+ .contact {
+    background-image: linear-gradient(to right, rgb(98, 104, 102) 0%, rgb(170, 173, 172) 50%, rgb(117, 117, 117) 100%);
+    text-align: center;
+}
+
+.contact h3 {
+    color: #313333;
+    line-height: 60px;
+    font-size: 50px;
+}
+
+.line {
+    color: rgb(235, 226, 198);
+    line-height: 100px;
+    font-size: 30px;
+}
+
+.social-links {
+
+    line-height: 50px;
+}
+
+.social-links svg {
+    height: 69px;
+    width: 69px;
+}
+
+.social-links svg:hover {
+    transition: all 250ms ease-in-out;
+    transform: scale(105%);
+    cursor: pointer;
+} 
+
+.Block {
+    height: 73vh;
+}
+
+@media screen and (max-width: 2000px) {
+
+    .Logo {
+        font-size: 3vw;
+    }
+
+    .lower {
+        font-size: 0.75vw;
+    }
+
+    .right ul li {
+        font-size: 1.125vw;
+    }
+
+    .right ul {
+        gap: 3vw;
+    }
+
+    .Intro {
+        margin-left: 13vw;
+        margin-right: 13vw;
+    }
+
+    .Written h1 {
+        font-size: 2.5vw;
+    }
+
+    .para {
+        font-size: 1.5vw;
+    }
+
+    .Img1 {
+        margin-left: 8vw;
+        height: 400px;
+        width: 400px;
+    }
+
+    .learnmore {
+        font-size: 20px;
+        line-height: 16px;
+        padding: 10px;
+        border-radius: 7px;
+    }
+
+    main .scroll {
+        font-size: 15px;
+    }
+
+    .scroll svg {
+        height: 34px;
+        width: 34px;
+    }
+    
+    .more {
+        margin-top: 10px;
+        font-size: 19px;
+        line-height: 8px;
+        padding: 18px;
+        border-radius: 13px;
+    }
+
+    .Services img{
+        height: 19vw;
+        width: 19vw;
+    }
+
+    .Block {
+        height: 77vh;
+    }
+
+
+
+    .contact h3 {
+        line-height: 50px;
+        font-size: 30px;
+    }
+
+    .line {
+        line-height: 80px;
+        font-size: 20px;
+    }
+
+    .social-links {
+        line-height: 50px;
+    }
+
+    .social-links svg {
+        height: 24px;
+        width: 24px;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    .Block{
+        height: 83vh;
+    }
+
+    .content h3{
+        font-size: 2vw;
+    }
+} 
+
+@media screen and (max-width: 1120px) {
+
+    .Logo {
+        font-size: 3vw;
+    }
+
+    .lower {
+        font-size: 1.5vw;
+    }
+
+    .right ul li {
+        font-size: 1.5vw;
+    }
+
+    .Intro {
+        margin: 10vw;
+        margin-left: 13vw;
+        margin-right: 13vw;
+    }
+
+    .Written h1 {
+        font-size: 4vw;
+        font-weight: 400;
+    }
+
+    .para {
+        font-size: 2vw;
+        font-weight: 10;
+    }
+
+    .WB-Text{
+        font-size: 16px;
+    }
+
+    .content{
+        margin-top: 0px ;
+    }
+
+    .more {
+        border-radius: 11px;
+    }
+
+    .Services img{
+        margin-top: 2vw;
+        height: 180px;
+        width: 180px;
+    }
+
+    .content{
+        margin-top: 20px;
+    }
+
+    .content ul li{
+        font-size: 1.4vw;
+    }
+
+    .content svg{
+        height: 2vw;
+        width: 2vw;
+    }
+}
+
+
+@media screen and (max-width: 720px) {
+
+    .Logo {
+        font-size: 3vw;
+    }
+
+    .lower {
+        font-size: 1.5vw;
+    }
+
+    .right ul li {
+        font-size: 1.9vw;
+    }
+
+    .Intro {
+        display: block;
+        margin-left: 13vw;
+        margin-right: 13vw;
+    }
+
+    .Written h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 5vw;
+    }
+
+    .para {
+        font-size: 3vw;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Img1 {
+        display: flex;
+        justify-self: center;
+        margin-top: 50px;
+        margin-left: 22vw;
+        height: 200px;
+        width: 200px;
+    }
+
+    main .scroll {
+        display: none;
+    }
+
+    .Details {
+        margin-top: 20px;
+    }
+
+    .head h1 {
+        font-size: 25px;
+    }
+
+    .UI h2 {
+        font-size: 20px;
+    }
+
+    .more {
+        margin-top: 10px;
+        font-size: 15px;
+        line-height: 8px;
+        padding: 13px;
+        border-radius: 7px;
+    }
+
+    .Block{
+        height: 60vh;
+    }
+
+    .Services{
+        margin-left: 10vw;
+    }
+
+    .content ul li{
+        font-size: 1.5vw;
+    }
+
+    
+    .Services img{
+        height: 160px;
+        width: 160px;
+    }
+}
+
+
+@media screen and (max-width: 620px) {
+
+    nav {
+        display: block;
+    }
+
+    .Logo {
+        display: flex;
+        justify-content: center;
+        font-size: 5vw;
+    }
+
+    .lower {
+        display: flex;
+        justify-content: center;
+        font-size: 2.5vw;
+    }
+
+    .right ul li {
+        font-size: 3.5vw;
+    }
+
+    .right ul {
+        margin-top: 1vh;
+        gap: 5vw;
+    }
+
+    .Written h1 {
+        font-size: 5.5vw;
+    }
+
+    .para {
+        font-size: 4vw;
+        font-weight: 10;
+    }
+
+    .Img1 {
+        margin-left: 18vw;
+        height: 200px;
+        width: 200px;
+    }
+
+    main .scroll {
+        display: none;
+    }
+
+    .head h1 {
+        font-size: 20px;
+    }
+
+    .UI h2 {
+        font-size: 22px;
+    }
+
+    .UI-Text {
+        font-size: 12px;
+    }
+
+    .WebDev h2 {
+        font-size: 22px;
+    }
+
+    .WB-Text {
+        font-size: 11px;
+    }
+
+    .Services{
+        margin-left: 5vw;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .heading h2{
+        font-size: 6vw;
+    }
+
+    .content h3{
+        font-size: 5vw;
+    }
+
+    .content ul li{
+        font-size: 3.0vw;
+    }
+    .content svg{
+        height: 4vw;
+        width: 4vw;
+    }
+
+    .R{
+        display: flex;
+        justify-self: end;
+    }
+
+    .Services img{
+        height: 280px;
+        width: 280px;
+    }
+
+}
+
+@media screen and (max-width: 440px) {
+    .Logo {
+        font-size: 5vw;
+    }
+
+    .lower {
+        font-size: 2.75vw;
+    }
+
+    .Intro {
+        margin: 10vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    .Written h1 {
+        font-size: 6vw;
+        font-weight: 400;
+    }
+
+    .para {
+        font-size: 5vw;
+        font-weight: 10;
+    }
+
+    .Img1{
+        margin-left: 16vw;
+    }
+
+    .learnmore {
+        font-size: 15px;
+        line-height: 13px;
+        padding: 7px;
+        border-radius: 7px;
+    }
+
+    .head h1 {
+        font-size: 20px;
+    }
+
+    .Services img{
+        height: 180px;
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .Images {
+        margin-left: -12px;
+    }
+
+    .A{
+        margin-left: 0px;
+        margin-right: 0px;
+        justify-self: center;
+    }
+
+    .content h3{
+        text-align: center;
+    }
+
+    .servbutton{
+        display: grid;
+    }
+
+    .servbutton button{
+        justify-self: center;
+    }
+    .R{
+        margin-left: 0px;
+        justify-self: center;
+    }
+}
